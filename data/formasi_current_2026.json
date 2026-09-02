@@ -1,0 +1,488 @@
+[
+  {
+    "No.":1,
+    "Kanwil":"Banda Aceh",
+    "Formasi KMK 85":6.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.3333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":2,
+    "Kanwil":"Medan",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":5,
+    "Selisih":-5.0,
+    "Capaian Formasi":0.5,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":3,
+    "Kanwil":"Pematang Siantar",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":4,
+    "Kanwil":"Padang",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":5,
+    "Kanwil":"Bukittinggi",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":0,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.0,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":6,
+    "Kanwil":"Pekanbaru",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":7,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.7,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":7,
+    "Kanwil":"Jambi",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":0,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.0,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":8,
+    "Kanwil":"Palembang",
+    "Formasi KMK 85":7.0,
+    "Current Aktif (25 Ags 2026)":7,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":9,
+    "Kanwil":"Bengkulu",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":10,
+    "Kanwil":"Bandar Lampung",
+    "Formasi KMK 85":6.0,
+    "Current Aktif (25 Ags 2026)":5,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.8333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":11,
+    "Kanwil":"Pangkal Pinang",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":0,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.0,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":12,
+    "Kanwil":"Batam",
+    "Formasi KMK 85":7.0,
+    "Current Aktif (25 Ags 2026)":4,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.5714285714,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":13,
+    "Kanwil":"Jakarta",
+    "Formasi KMK 85":45.0,
+    "Current Aktif (25 Ags 2026)":32,
+    "Selisih":-13.0,
+    "Capaian Formasi":0.7111111111,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":14,
+    "Kanwil":"Bandung",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":6,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.6,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":15,
+    "Kanwil":"Bekasi",
+    "Formasi KMK 85":8.0,
+    "Current Aktif (25 Ags 2026)":6,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.75,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":16,
+    "Kanwil":"Bogor",
+    "Formasi KMK 85":9.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-6.0,
+    "Capaian Formasi":0.3333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":17,
+    "Kanwil":"Cirebon",
+    "Formasi KMK 85":5.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.2,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":18,
+    "Kanwil":"Tasikmalaya",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":4,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":19,
+    "Kanwil":"Semarang",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":9,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.9,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":20,
+    "Kanwil":"Purwokerto",
+    "Formasi KMK 85":2.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":21,
+    "Kanwil":"Surakarta",
+    "Formasi KMK 85":5.0,
+    "Current Aktif (25 Ags 2026)":4,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.8,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":22,
+    "Kanwil":"Tegal",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.75,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":23,
+    "Kanwil":"Yogyakarta",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":6,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.6,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":24,
+    "Kanwil":"Surabaya",
+    "Formasi KMK 85":12.0,
+    "Current Aktif (25 Ags 2026)":8,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":25,
+    "Kanwil":"Jember",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":26,
+    "Kanwil":"Madiun",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":27,
+    "Kanwil":"Malang",
+    "Formasi KMK 85":7.0,
+    "Current Aktif (25 Ags 2026)":4,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.5714285714,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":28,
+    "Kanwil":"Serang",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":8,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.8,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":29,
+    "Kanwil":"Denpasar",
+    "Formasi KMK 85":8.0,
+    "Current Aktif (25 Ags 2026)":8,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":30,
+    "Kanwil":"Singaraja",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.3333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":31,
+    "Kanwil":"Mataram",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.3333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":32,
+    "Kanwil":"Bima",
+    "Formasi KMK 85":2.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.5,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":33,
+    "Kanwil":"Kupang",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.75,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":34,
+    "Kanwil":"Pontianak",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.75,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":35,
+    "Kanwil":"Palangkaraya",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":36,
+    "Kanwil":"Banjarmasin",
+    "Formasi KMK 85":5.0,
+    "Current Aktif (25 Ags 2026)":4,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.8,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":37,
+    "Kanwil":"Samarinda",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.75,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":38,
+    "Kanwil":"Balikpapan",
+    "Formasi KMK 85":6.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.5,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":39,
+    "Kanwil":"Manado",
+    "Formasi KMK 85":6.0,
+    "Current Aktif (25 Ags 2026)":3,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.5,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":40,
+    "Kanwil":"Palu",
+    "Formasi KMK 85":4.0,
+    "Current Aktif (25 Ags 2026)":0,
+    "Selisih":-4.0,
+    "Capaian Formasi":0.0,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":41,
+    "Kanwil":"Makassar",
+    "Formasi KMK 85":10.0,
+    "Current Aktif (25 Ags 2026)":8,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.8,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":42,
+    "Kanwil":"Palopo",
+    "Formasi KMK 85":2.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.5,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":43,
+    "Kanwil":"Parepare",
+    "Formasi KMK 85":2.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":44,
+    "Kanwil":"Kendari",
+    "Formasi KMK 85":2.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.5,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":45,
+    "Kanwil":"Gorontalo",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":2,
+    "Selisih":-1.0,
+    "Capaian Formasi":0.6666666667,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":46,
+    "Kanwil":"Ambon",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.3333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":47,
+    "Kanwil":"Ternate",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":0,
+    "Selisih":-3.0,
+    "Capaian Formasi":0.0,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":48,
+    "Kanwil":"Jayapura",
+    "Formasi KMK 85":6.0,
+    "Current Aktif (25 Ags 2026)":0,
+    "Selisih":-6.0,
+    "Capaian Formasi":0.0,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":49,
+    "Kanwil":"Biak",
+    "Formasi KMK 85":1.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":0.0,
+    "Capaian Formasi":1.0,
+    "Status":"Sesuai"
+  },
+  {
+    "No.":50,
+    "Kanwil":"Sorong",
+    "Formasi KMK 85":3.0,
+    "Current Aktif (25 Ags 2026)":1,
+    "Selisih":-2.0,
+    "Capaian Formasi":0.3333333333,
+    "Status":"Kekurangan"
+  },
+  {
+    "No.":null,
+    "Kanwil":null,
+    "Formasi KMK 85":null,
+    "Current Aktif (25 Ags 2026)":null,
+    "Selisih":null,
+    "Capaian Formasi":null,
+    "Status":null
+  },
+  {
+    "No.":"TOTAL",
+    "Kanwil":null,
+    "Formasi KMK 85":299.0,
+    "Current Aktif (25 Ags 2026)":186,
+    "Selisih":-113.0,
+    "Capaian Formasi":0.6220735786,
+    "Status":null
+  },
+  {
+    "No.":null,
+    "Kanwil":null,
+    "Formasi KMK 85":null,
+    "Current Aktif (25 Ags 2026)":null,
+    "Selisih":null,
+    "Capaian Formasi":null,
+    "Status":null
+  },
+  {
+    "No.":"Catatan",
+    "Kanwil":null,
+    "Formasi KMK 85":null,
+    "Current Aktif (25 Ags 2026)":"Typo sumber 'pare-Pare' dan 'Gotontalo' dipadankan ke Parepare dan Gorontalo untuk pemetaan.",
+    "Selisih":null,
+    "Capaian Formasi":null,
+    "Status":null
+  }
+]

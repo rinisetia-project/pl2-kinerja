@@ -1,0 +1,932 @@
+[
+  {
+    "nama": "Firman Saputra, S.H.",
+    "kanwil": "Banda Aceh",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Reynaldi Putra Rosihan,  S.H., M.Kn., M.H.",
+    "kanwil": "Banda Aceh",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Elawijaya Alsa, S.H., Sp.N., M.Kn.",
+    "kanwil": "Medan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dra. Sondang Anna Sitohang, S.H., M.Kn.",
+    "kanwil": "Medan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Erna Waty Lubis, S.H.",
+    "kanwil": "Medan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Putri A.R, S.H., M.Kn.",
+    "kanwil": "Medan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Teti, S.H., M.Kn.",
+    "kanwil": "Medan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ada Tua Simbolon",
+    "kanwil": "Pematang Siantar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ancy Folorida Soyusti",
+    "kanwil": "Pematang Siantar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Zulhenri, S.H.",
+    "kanwil": "Pematang Siantar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Analis Wida Delima Pandjaitan, S.H., M.Kn.",
+    "kanwil": "Batam",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Hendy Bkry Agustino, S.E., S.H., M.Kn.",
+    "kanwil": "Batam",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Juli Cristie, S.H., S.E., M.Kn.",
+    "kanwil": "Batam",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Wany Thamrin, S.H., M.Kn.",
+    "kanwil": "Batam",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Beatrix Benni, S.H., M.Pd., M.Kn",
+    "kanwil": "Padang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rahmah Diah Akbar, S.H., M.Kn.",
+    "kanwil": "Padang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Boy Rinaldi, S.H.",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. H. Khalidin, S.H., M.H.",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "H. Jasril, S.H., S.E.",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Indah Retno Widayati, S.H",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Indra Bhakti, S.H., M.Kn.",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "M. Fiqri Purnama, S.H., M.Kn.",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Sabar Jujur Kade P. Lubis, S.H., M.Kn.",
+    "kanwil": "Pekanbaru",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dewi Octalia Boru Gurning, S.E.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Juhaidi, S.H.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "KMS. Subhan Ansyori, S.H., M.Kn.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Noviarina Habibah, S.H.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Shelvita Andriani, S.H.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tiara Aulia Melinda, S.E.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Vusfytha Arie Yanni, S.H., M.Kn.",
+    "kanwil": "Palembang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Akhmadi Dachlan, S.H., M.H.",
+    "kanwil": "Bandar Lampung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "IG. Yoga Adi Nugroho, S.H., M.Kn.",
+    "kanwil": "Bandar Lampung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Mohammad Reza, S.H., M.H.",
+    "kanwil": "Bandar Lampung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Nur Hayati, S.H., M.Kn.",
+    "kanwil": "Bandar Lampung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Sri Mulyono Herlambang, S.H., M.H.",
+    "kanwil": "Bandar Lampung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Deni Kristian Natanael , S.H., S.S., M.H., M.Kn",
+    "kanwil": "Bengkulu",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Juliwati Siagian, S.H., M.Kn.",
+    "kanwil": "Bengkulu",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Anastasia Chandra, S.H., M.Kn.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "H. Bambang Irawan, S.H., M.Kn.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "H. Bambang Suwondo, S.H.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ni Putu Nena BP Rachmadi, S.H., M.Kn.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ruhhidayadi, S.h., M.H.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Suri Michelle Angelina, S.H.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Doni Putra, S.H.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Gayatri Adi Wulandari , S.H., M.Kn.",
+    "kanwil": "Serang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ruping Lolo Alias Vince, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Anak Agung Ayu Ari Widhyasari, S.H., M.Kn., M.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Cahyono Dwi Prasetyo, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Cari Azhari, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Clara Vania Arianto, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. H. Syafran, S.H., M.Hum.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Melati Sinaga, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Sri Widyawati, S.H., SpN.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Yonatan, S.H., S.Kom., S.E., MAF., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Drs. Marta Yandry, S.E., M.M.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Eben Kurnia Vitali, S.E., M.M., M.Comm",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Edwina Warman Putri, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ir. Chitra W Mukhsin",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ir. Syahrizal, M.Kom., M.M., MBA.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Jimmy Novianto Suryadi, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Julius Purnawan, S.H., M.Si",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Mochamad Fardiansyah, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Monang Manurung,S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Relawati, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Sakti Lo, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Sarah Hasiani, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Simon Yos Sudarso, S.H., LL.M",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Stephanie Wilmarta, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Susan Natalia, S.E.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Syamsu, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tjhong Sendrawan, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Wahyu Sunarmiasih, S.H.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Widia Ari Wardani, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Yuliana Sinarta, S.E., S.H., M.Kn",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Zul Idami, S.H., S.Pd., M.M.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Idayanti Pandan, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Budi Wibowo Halim, S.H., M.Kn.",
+    "kanwil": "Jakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Deni Subarno, S.H., M.Kn.",
+    "kanwil": "Bandung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Teddy Chandra, S.H., M.Kn.",
+    "kanwil": "Bandung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Febby Elita Kusumadewi, S.H., M.Kn.",
+    "kanwil": "Bandung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Helen Ryanita Nainggolan, S.H., M.Kn.",
+    "kanwil": "Bandung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Lumbrini Yudhapramesti, S.H., M.Kn.",
+    "kanwil": "Bandung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Yuyun Yullianty, S.H., M.Kn.",
+    "kanwil": "Bandung",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. H. Dhody Ananta Rivandi Widjajaatmadja, S.H.",
+    "kanwil": "Bekasi",
+    "status": "Aktif"
+  },
+  {
+    "nama": "FX. Tri Sumaryanto, S.H., M.H.",
+    "kanwil": "Bekasi",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Glenna Martin, S.H., M.Kn.",
+    "kanwil": "Bekasi",
+    "status": "Aktif"
+  },
+  {
+    "nama": "H. Ade Ardiansyah, S.H., M.Kn.",
+    "kanwil": "Bekasi",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Henny Nur Hasanah, S.H.",
+    "kanwil": "Bekasi",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Priyatno, S.H., M.Kn.",
+    "kanwil": "Bekasi",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Egi Anggiawati Padli, S.H., M.Kn.",
+    "kanwil": "Bogor",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Nenden Dewi Anggraeni, S.H., M.Kn.",
+    "kanwil": "Bogor",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rohana Amelia Putri Handayani, S.H.",
+    "kanwil": "Bogor",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Inge Rahayu Riyandini, S.H., M.Kn.",
+    "kanwil": "Cirebon",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Agustine Merdekawati, S.H., M.Kn.",
+    "kanwil": "Tasikmalaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Nia Tresnawati, S.H.",
+    "kanwil": "Tasikmalaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Riyan Rasyid Noor, S.H., M.Kn.",
+    "kanwil": "Tasikmalaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Yuswandi, S.H., M.H., M.Kn.",
+    "kanwil": "Tasikmalaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tri Utami, S.H., M.Kn.",
+    "kanwil": "Purwokerto",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Yullinta Astried Dian Vitalova, S.H., M.Kn.",
+    "kanwil": "Purwokerto",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Melissa Liguna, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Alfrizki Buddhi Pramana, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Benny Kurniawan Soedarsono, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Denni Saputra, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Elia Elvi, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Evi Novita Tri Setyorini, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Soegianto, S.H., M.Kn.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tini Prihatini, S.H., M.Kn., M.H.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tito Andi Wibowo, S.H.",
+    "kanwil": "Semarang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Gatot Adiatma, S.H., M.Kn.",
+    "kanwil": "Surakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ina Megahwati, S.H.",
+    "kanwil": "Surakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ispriyanti Wandasari, S.H., M.Kn.",
+    "kanwil": "Surakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Wedy Asmara, S.H., Sp. Not.",
+    "kanwil": "Surakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dian Kumala Dewi, S.H., M.Kn.",
+    "kanwil": "Tegal",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Evy Indriasari, S.H., Sp.N., M.H.",
+    "kanwil": "Tegal",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Sakti Harlambang, S.H., M.Kn.",
+    "kanwil": "Tegal",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Chaidir AM, S.H., M.Kn.",
+    "kanwil": "Yogyakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Elisabeth Alvina Shintadewi, S.H., M.Kn.",
+    "kanwil": "Yogyakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Essy Wulan Agustin, S.H., M.Kn.",
+    "kanwil": "Yogyakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Fransisca Kusuma Aryani, S.H., M.Kn.",
+    "kanwil": "Yogyakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Helena Maryam Prabandani, S.H.",
+    "kanwil": "Yogyakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tabitha Sri Jeany, S.H., M.Kn.",
+    "kanwil": "Yogyakarta",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Arief Juniar Hardiawan, S.H.",
+    "kanwil": "Jember",
+    "status": "Aktif"
+  },
+  {
+    "nama": "R. Dharma Indra Wijaya, S.H., M.Kn.",
+    "kanwil": "Jember",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dhenis Prabowo Sakti, S.H., M.Kn.",
+    "kanwil": "Madiun",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rini Puji Astuti, S.H., M.Kn.",
+    "kanwil": "Madiun",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ardi Jaya Pradipta, S.H., M.Kn.",
+    "kanwil": "Malang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Endang Sri Kawuryan, S.H., M.Hum.",
+    "kanwil": "Malang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Fatimah Al Zahra, S.H., M.Kn.",
+    "kanwil": "Malang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Purwaning Rahayu Sisworini, S.H., M.Kn.",
+    "kanwil": "Malang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dian Permadhani, S.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dimas Auliya Fikri Bil Fi'li, S.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Haji Raden Ibnu Arly, S.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Felix The, S.Kom., S.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Maya Ekasari Budiningsih, S.Sos, S.H.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Moch. Syamsudin, S.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Nyoman Ari Febrina Puspita, S.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rino Arief Rachman, S.H., M.H., M.Kn.",
+    "kanwil": "Surabaya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Kenny Cetera, S.H., M.Kn.",
+    "kanwil": "Pontianak",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rahmaniar Nurul Hidayat, S.H., M.Kn.",
+    "kanwil": "Pontianak",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rut Yessy Simanjuntak, S.E.",
+    "kanwil": "Pontianak",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Tati Yuliati, S.H., M.Kn.",
+    "kanwil": "Banjarmasin",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Wahju Narulita, S.H., M.Kn.",
+    "kanwil": "Banjarmasin",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Wahyu Setiawan, S.E.",
+    "kanwil": "Banjarmasin",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Yosua Ananta Tenardi , S.H., M.Kn.",
+    "kanwil": "Banjarmasin",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Azka Aulia Abdillah, S.H., M.Kn.",
+    "kanwil": "Palangkaraya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Silvia Anggraeni, S.H., M.Kn.",
+    "kanwil": "Palangkaraya",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ahmad Hendra T. Pananrang, S.H., M.Kn.",
+    "kanwil": "Balikpapan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Esti Kareni Indriati, S.T., M.H., M.Kn.",
+    "kanwil": "Balikpapan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Danu Kuncoro Edy, S.H., M.Kn.",
+    "kanwil": "Balikpapan",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Hj. Indera Dewi, S.H., M.Kn.",
+    "kanwil": "Samarinda",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Nia Nuswantari, S.H., M.Kn.",
+    "kanwil": "Samarinda",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ratna Witama, S.H., M.Kn.",
+    "kanwil": "Samarinda",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Fitri Khairunnisa, S.H., M.Kn.",
+    "kanwil": "Bima",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Cynthia Setia Ningsih, S.H., M.Kn.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Drs. Nengah Renaya",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "G Eka Putra Pratama Arnawa, S.H., M.Kn.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "I Made Yoga Dharma Susila, S.H., M.Kn.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "I Wayan Rusmawan, S.H., M.Kn.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Luh Gede Herryani, S.H., M.Kn.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ni Luh Pujiantini, S.H.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. R.A. Andria Jayanti, S.H., M.Kn.",
+    "kanwil": "Denpasar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Elia Asaria Izaac, SH, MKn",
+    "kanwil": "Kupang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Emmanuel Mali, SH",
+    "kanwil": "Kupang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Jefry Jonathan Ndun, SH, MKn",
+    "kanwil": "Kupang",
+    "status": "Aktif"
+  },
+  {
+    "nama": "I Dewa Ayu Gracia Guana Murthi, S.H., M.Kn.",
+    "kanwil": "Mataram",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ni Ketut Putri Pratiwi, S.H., M.Kn.",
+    "kanwil": "Singaraja",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Miftah Husabri Asbar, S.H., M.Kn.",
+    "kanwil": "Kendari",
+    "status": "Aktif"
+  },
+  {
+    "nama": "A. Lola Rosalina, S.H., M.H.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Alfina Teza Puspaningtias, S.H., M.Kn.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Andi Fachrysyam, S.H., M.Kn.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Ahmad Saleh, S.H., M.H., M.Kn.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Irene Lidjaja, S.H., M.Kn.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Octorio Ramiz, S.H., M.Kn.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ridwan Nawing, S.H.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Syahrir Madeali, S.H.",
+    "kanwil": "Makassar",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Wahyuni Inti Hastuti, S.H.",
+    "kanwil": "Palopo",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Surianto, S.H., M.Kn.",
+    "kanwil": "Parepare",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Lia Trizza Firgita Adhilia, S.H.",
+    "kanwil": "pare-Pare",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Kaharuddin Kamaru, S.H., M.Kn.",
+    "kanwil": "Gorontalo",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Ivana Iring  Restu Lahay, S.H., M.Hum., M.Kn.",
+    "kanwil": "Gotontalo",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Dr. Ir. Joyce Margareth Wurangian, S.H., M.Kn.",
+    "kanwil": "Manado",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Eva Indrayani Buida, S.H., M.Kn.",
+    "kanwil": "Manado",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Marcellino Vincentcio, S.H., M.Kn.",
+    "kanwil": "Manado",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Rensya Angyanan, S.H., M.Kn.",
+    "kanwil": "Ambon",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Santi Br. Kaban, S.H., M.Kn.",
+    "kanwil": "Biak",
+    "status": "Aktif"
+  },
+  {
+    "nama": "Fitriana Eka Yunita, S.H., M.Kn.",
+    "kanwil": "Sorong",
+    "status": "Aktif"
+  }
+]

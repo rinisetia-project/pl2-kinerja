@@ -1,0 +1,7 @@
+create extension if not exists pgcrypto;
+create table if not exists pl2_master(id uuid primary key default gen_random_uuid(),nama text not null,kanwil text,status text not null default 'Aktif',wilayah_jabatan text,deals text,updated_at timestamptz default now(),unique(nama,kanwil));
+create table if not exists pl2_kinerja(id uuid primary key default gen_random_uuid(),pl2_id uuid not null references pl2_master(id) on delete cascade,period text not null,kanwil text,nama text,pokok numeric default 0,pnbp numeric default 0,frekuensi numeric default 0,lot numeric default 0,produktif numeric default 0,created_at timestamptz default now(),unique(pl2_id,period));
+create table if not exists pl2_formasi(id uuid primary key default gen_random_uuid(),kanwil text not null,formasi integer not null,aktif integer not null,period text not null,unique(kanwil,period));
+create table if not exists upload_log(id uuid primary key default gen_random_uuid(),filename text,period text,rows_processed integer,rows_with_capaian integer,rows_nihil integer,created_at timestamptz default now());
+alter table pl2_master enable row level security; alter table pl2_kinerja enable row level security; alter table pl2_formasi enable row level security;
+create policy "public read master" on pl2_master for select using (true); create policy "public read kinerja" on pl2_kinerja for select using (true); create policy "public read formasi" on pl2_formasi for select using (true);
