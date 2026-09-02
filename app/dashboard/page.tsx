@@ -8,13 +8,19 @@ export const dynamic = 'force-dynamic'
 
 export default async function Dashboard() {
   const db = supabasePublic()
-  const [{ data: master = [] }, { data: kinerja = [] }, { data: formasi = [] }, { data: kanwil = [] }, { data: inactive = [] }] = await Promise.all([
+  const [{ data: masterData }, { data: kinerjaData }, { data: formasiData }, { data: kanwilData }, { data: inactiveData }] = await Promise.all([
     db.from('pl2_master').select('id,nama,kanwil,status,wilayah_jabatan').eq('status', 'Aktif').order('nama'),
     db.from('pl2_kinerja').select('pl2_id,nama,kanwil,pokok,pnbp,frekuensi,lot,produktif').eq('period', '2026-07').order('pokok', { ascending: false }),
     db.from('pl2_formasi').select('kanwil,formasi,aktif,period').eq('period', '2026-07').order('kanwil'),
     db.from('pl2_kinerja_kanwil_live').select('*').eq('period', '2026-07').order('capaian_pokok', { ascending: false }),
     db.from('pl2_kinerja_inactive').select('nama,kanwil,pokok,pnbp,frekuensi,lot,status,keterangan').eq('period', '2026-07').order('nama')
   ])
+
+  const master = (masterData ?? []) as any[]
+  const kinerja = (kinerjaData ?? []) as any[]
+  const formasi = (formasiData ?? []) as any[]
+  const kanwil = (kanwilData ?? []) as any[]
+  const inactive = (inactiveData ?? []) as any[]
 
   const byId = new Map((kinerja as any[]).map(r => [r.pl2_id, r]))
   const individual = (master as any[]).map(m => byId.get(m.id) ? { ...m, ...byId.get(m.id), hasData: true } : { ...m, pokok: 0, pnbp: 0, frekuensi: 0, lot: 0, produktif: 0, hasData: false })
