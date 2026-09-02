@@ -22,7 +22,7 @@ export default function Dashboard(){
   const [error,setError]=useState('')
   const [kanwilFilter,setKanwilFilter]=useState('ALL')
   const [metric,setMetric]=useState<SortKey>('pokok')
-  const [status,setStatus]=useState('Aktif')
+  const [status,setStatus]=useState('ALL')
   const [search,setSearch]=useState('')
   const [channelYear,setChannelYear]=useState<'2025'|'2024'>('2025')
   const [kanwilMetric,setKanwilMetric]=useState<'pokok'|'pnbp'|'produktif'>('pokok')
@@ -74,7 +74,24 @@ export default function Dashboard(){
 
   return <main className="wrap">
     <section className="hero">
-      <div><div className="eyebrow">EXECUTIVE MONITORING · DATA LIVE</div><h1>Executive Dashboard — Pejabat Lelang Kelas II</h1><p>Realisasi kinerja s.d. Juli 2026 · profil penyelenggaraan 2024–2025 · formasi 2026 · histori 2023–2025</p></div>
+      <div className="topbar-main">
+        <div className="eyebrow">EXECUTIVE MONITORING · DATA LIVE</div>
+        <h1>Executive Dashboard — Pejabat Lelang Kelas II</h1>
+        <p>Realisasi kinerja s.d. Juli 2026 · ditambah histori kinerja 2023–2025</p>
+        <div className="toolbar">
+          <select value={kanwilFilter} onChange={e=>setKanwilFilter(e.target.value)}>
+            <option value="ALL">Semua Kanwil</option>
+            {Array.from(new Set(master.map(r=>r.kanwil))).sort().map(k=><option key={k}>{k}</option>)}
+          </select>
+          <select value={metric} onChange={e=>setMetric(e.target.value as SortKey)}>
+            <option value="pokok">Ranking: Pokok 2026</option>
+            <option value="pnbp">Ranking: PNBP 2026</option>
+            <option value="frekuensi">Ranking: Frekuensi 2026</option>
+            <option value="lot">Ranking: Lot 2026</option>
+          </select>
+          <input className="searchbox" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Cari nama Pejabat Lelang Kelas II..." />
+        </div>
+      </div>
       <div className="hero-badge">UPDATED<br/><b>31 AGUSTUS 2026</b></div>
     </section>
     <nav className="nav"><a className="active" href="#top">Dashboard</a><a href="/admin">Admin / Update Data</a></nav>
@@ -105,7 +122,7 @@ export default function Dashboard(){
       <div className="card"><div className="section-head"><div><h2>Top 10 PL-II</h2><p>Berdasarkan realisasi Pokok Juli 2026.</p></div><span className="pill">Pokok</span></div><div className="bars">{top10.map((r,i)=><div className="barrow" key={r.id}><div className="barlabel"><span>{i+1}. {r.nama}</span><small>{r.kanwil}</small></div><div className="bartrack"><div className="barfill" style={{width:`${r.pokok/maxTop*100}%`}}/></div><b>{shortRp(r.pokok)}</b></div>)}</div></div>
     </section>
 
-    <section className="card section"><div className="section-head"><div><h2>Kinerja Individual PL-II — Juli 2026</h2><p>Seluruh PL-II aktif tetap ditampilkan. PL-II tanpa capaian diberi status Nihil.</p></div><div className="filters"><select value={kanwilFilter} onChange={e=>setKanwilFilter(e.target.value)}><option value="ALL">Semua Kanwil</option>{Array.from(new Set(master.map(r=>r.kanwil))).sort().map(k=><option key={k}>{k}</option>)}</select><select value={metric} onChange={e=>setMetric(e.target.value as SortKey)}><option value="pokok">Ranking Pokok</option><option value="pnbp">Ranking PNBP</option><option value="frekuensi">Ranking Frekuensi</option><option value="lot">Ranking Lot</option></select><select value={status} onChange={e=>setStatus(e.target.value)}><option>Aktif</option><option>ALL</option></select><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Cari nama PL-II"/></div></div>
+    <section className="card section"><div className="section-head"><div><h2>Kinerja Individual PL-II — Juli 2026</h2><p>Seluruh PL-II aktif tetap ditampilkan. PL-II tanpa capaian diberi status Nihil.</p></div><div className="table-meta"><span className="pill">{num(filtered.length)} PL-II</span></div></div>
       <div className="table"><table><thead><tr><th>#</th><th>Pejabat</th><th>Kanwil</th><th>Wilayah Jabatan</th><th>Pokok</th><th>PNBP</th><th>Frek.</th><th>Lot</th><th>Prod.</th><th>Status</th></tr></thead><tbody>{filtered.map((r,i)=><tr key={r.id} className={!r.hasData?'nihil':''}><td>{i+1}</td><td><b>{r.nama}</b></td><td>{r.kanwil}</td><td>{r.wilayah_jabatan||'-'}</td><td>{rupiah(r.pokok)}</td><td>{rupiah(r.pnbp)}</td><td>{num(r.frekuensi)}</td><td>{num(r.lot)}</td><td>{r.frekuensi?(r.lot/r.frekuensi).toFixed(1):'0.0'}</td><td><span className={`status ${r.hasData?'ok':'zero'}`}>{r.hasData?'Ada capaian':'Nihil'}</span></td></tr>)}</tbody></table></div><div className="foot">Menampilkan {num(filtered.length)} dari {num(master.length)} PL-II aktif.</div>
     </section>
 
