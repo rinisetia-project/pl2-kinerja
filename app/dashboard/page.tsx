@@ -66,7 +66,7 @@ export default function Dashboard(){
   },[histSort,histDesc])
 
   const counts=(seed.counts as any)[channelYear]||{}
-  const channelTotal=Object.values(counts).reduce((a:any,b:any)=>a+Number(b),0)
+  const channelTotal=Object.values(counts as Record<string, number>).reduce<number>((a,b)=>a+Number(b),0)
   const top10=individual.filter(r=>r.hasData).slice().sort((a,b)=>b.pokok-a.pokok).slice(0,10)
   const maxTop=Math.max(...top10.map(r=>r.pokok),1)
   const maxKanwil=Math.max(...kanwilRows.map(r=>Number(r[kanwilMetric==='pokok'?'capaian_pokok':kanwilMetric==='pnbp'?'capaian_pnbp':'produktif'])||0),1)
