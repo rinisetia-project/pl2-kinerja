@@ -20,10 +20,7 @@ export default function Dashboard(){
  const [chartMode,setChartMode]=useState<'pokok'|'pnbp'|'produktif'>('pokok'),[channelYear,setChannelYear]=useState<'2025'|'2024'>('2025')
  const [histSort,setHistSort]=useState<'kanwil'|'pokok2023'|'pnbp2023'|'pokok2024'|'pnbp2024'|'pokok2025'|'pnbp2025'>('pokok2025'),[histDesc,setHistDesc]=useState(true)
 
- useEffect(()=>{let alive=true;(async()=>{setLoading(true);const db=supabasePublic();const [m,k,t,i]=await Promise.all([
-  db.from('pl2_master').select('id,nama,kanwil,status,wilayah_jabatan,deals').order('nama'),
-  db.from('pl2_target_kanwil').select('kanwil,period,target_pokok,target_pnbp').eq('period','2026-07').order('kanwil')
- ]);if(!alive)return;const errs=[m.error,t.error].filter(Boolean);if(errs.length)setError(errs.map((e:any)=>e.message).join(' | '));setMaster(m.data??[]);setTargets(t.data??[]);setKinerja(kinerjaRaw as any[]);setInactive([]);setLoading(false)})();return()=>{alive=false}},[])
+ useEffect(()=>{let alive=true;(async()=>{setLoading(true);const db=supabasePublic();const m=await db.from('pl2_master').select('id,nama,kanwil,status,wilayah_jabatan,deals').order('nama');const t=await db.from('pl2_target_kanwil').select('kanwil,period,target_pokok,target_pnbp').eq('period','2026-07').order('kanwil');if(!alive)return;const errs=[m.error,t.error].filter(Boolean);if(errs.length)setError(errs.map((e:any)=>e.message).join(' | '));setMaster(m.data??[]);setTargets(t.data??[]);setKinerja(kinerjaRaw as any[]);setInactive([]);setLoading(false)})();return()=>{alive=false}},[])
 
  const normalizeName=(s:any)=>String(s||'').toLowerCase().trim().split(',')[0].replace(/[^a-z0-9]+/g,'')
  const rawByKey=useMemo(()=>{const m=new Map<string,Row>();(kinerjaRaw as any[]).forEach(r=>{const key=normalizeName(r.nama);const prev=m.get(key);if(prev)m.set(key,{...prev,pokok:(Number(prev.pokok)||0)+(Number(r.pokok)||0),pnbp:(Number(prev.pnbp)||0)+(Number(r.pnbp)||0),frekuensi:(Number(prev.frekuensi)||0)+(Number(r.frekuensi)||0),lot:(Number(prev.lot)||0)+(Number(r.lot)||0)});else m.set(key,{...r})});return m},[])
